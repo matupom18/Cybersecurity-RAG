@@ -1,0 +1,58 @@
+============================================================
+VECTOR DATABASE ANALYSIS
+============================================================
+
+📋 METADATA ANALYSIS
+----------------------------------------
+Total chunks: 485
+
+Chunks per source:
+  - mitre-attack-philosophy-2020.pdf: 151 chunks
+  - owasp-top-10.pdf: 63 chunks
+  - thailand-web-security-standard-2025.pdf: 271 chunks
+
+Page metadata coverage: 485/485 (100.0%)
+Start index coverage: 485/485 (100.0%)
+
+📏 CHUNK LENGTH ANALYSIS
+----------------------------------------
+Average: 674.6 chars
+Min: 2 chars
+Max: 1000 chars
+Median: 843 chars
+
+Length distribution:
+  Very short (<100):  38 (7.8%)
+  Short (100-500):    110 (22.7%)
+  Medium (500-800):   80 (16.5%)
+  Long (>=800):       257 (53.0%)
+
+⚠️ POTENTIAL QUALITY ISSUES
+----------------------------------------
+Very short chunks (<50 chars): 34
+  Examples:
+    - [mitre-attack-philosophy-2020.pdf] "6. references..."
+    - [owasp-top-10.pdf] "the owasp top 10: 2021..."
+    - [owasp-top-10.pdf] "broken access control vulnerabilities..."
+
+Chunks with many control chars: 0
+
+🇹🇭 SAMPLE THAI CONTENT
+----------------------------------------
+Source: thailand-web-security-standard-2025.pdf (Page 1)
+Thai chars: 161
+Content (first 300 chars):
+  หน้า ๓๓
+เลม
+บ๒
+ตอนพิเศษ ๓o๕
+ราชกิจจานุเบกษา
+กันยายน ๒๕๖๘
+ประกาศคณะกรรมการการรักษาความมันคงปลอดภัยไซเบอร์แห่งชาติ  เรื่อง ฺมาตรฐานการรักษาความมั่นคงปลอดภัยสำหรับเว็บไซต์ พ.ศ. ๒๕๖๘...
+
+
+💡 RECOMMENDATIONS
+----------------------------------------
+✅ Chunk size distribution looks reasonable
+✅ All chunks have page metadata
+✅ All chunks have start_index for overlap tracking
